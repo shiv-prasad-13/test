@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* main container */
+.container{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top:10vw;
+}
+.dis{
+
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* top:2vw; */
+    align-items: center;
+    gap:2vw
+}
+button{
+    cursor: pointer;
+}
